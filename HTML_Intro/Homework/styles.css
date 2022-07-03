@@ -1,0 +1,51 @@
+.body {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+* {
+    color: white;
+    box-sizing: border-box;
+}
+
+.page-wrap {
+    background-color: blueviolet;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 990px;
+    margin: 0 auto;
+    padding: 0 25px;
+    box-sizing: content-box;
+    width: 100%;
+}
+
+/* typography */
+.h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.txt-yellow {
+    color: yellow;
+}
+
+/* typography end*/
